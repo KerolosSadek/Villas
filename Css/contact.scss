@@ -1,0 +1,44 @@
+.contact {
+    padding-bottom: 200px;
+    .title {
+        font-family: $font_family;
+        color: $primary_color;
+    }
+    .desc{
+        font-family: $font_family;
+        color: $secondry_color;
+    }
+}
+.contact{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 65px;
+}
+.hubspot-link__container.sproket{
+    display: none !important;
+}
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .contact{
+        width: 90%;
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .contact{
+    width: 90%;
+    }
+} 
+// Medium devices (tablets, less than 992px)
+@media (min-width: 768px) and (max-width: 991.98px){ 
+    .contact{
+        width: 90%;
+        }
+}
+// Medium devices (tablets, less than 992px)
+@media (min-width: 992px) and (max-width: 1600px){ 
+    .contact{
+        width: 38%;
+        }
+}
